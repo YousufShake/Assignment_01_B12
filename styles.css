@@ -6,6 +6,10 @@
     box-sizing: 0px;
 }
 
+body{
+    background-color: #f5f8ff;
+}
+
 .container{
     width: 80%;
     margin: 0 auto;
@@ -18,7 +22,7 @@
     background-color: #4E47FF;
     color: white;
     border: none;
-    padding: 20px 30px;
+    padding: 15px 30px;
     border-radius: 10px;
 }
 
@@ -26,7 +30,7 @@
     font-size: 34px;
     font-family: "Inter", sans-serif;
     color: #4E47FF;
-    font-weight: bolder;
+    font-weight: 1000;
     text-transform: uppercase;
 }
 
@@ -56,3 +60,37 @@ nav{
 }
 
 /* Header section css end */
+/* section action css start */
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.action img {
+    border-radius: 40px;
+}
+
+.action h1{
+    font-size: 42px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+
+}
+.action p{
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: #8c8e98;
+}
+
+.action .text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.action .text .btn{
+    align-self: flex-start;
+}
