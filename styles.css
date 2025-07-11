@@ -94,3 +94,47 @@ nav{
 .action .text .btn{
     align-self: flex-start;
 }
+
+/* section action css start */
+
+/* user section css start */
+
+.user{
+    background-color: #e5e7ff;
+    margin: 40px 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px;
+    border-radius: 20px;
+    gap: 20px;
+
+}
+.user h2{
+    font-size: 38px;
+    font-family: "Raleway", sans-serif;
+}
+
+.feedback {
+    display: flex;
+    gap: 200px;
+    padding: 30px 0px;
+}
+
+.feedback_content{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.feedback_content h1{
+    font-size: 80px;
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+}
+.feedback_content p{
+    font-size: 20px;
+    color: #8c8e98;
+    font-family: "Inter", sans-serif;
+}
+
+/* user section css End */
