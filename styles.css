@@ -147,3 +147,28 @@ nav{
     align-items: center;
     font-family: "Raleway", sans-serif;
 }
+.card{
+    width: 300px;
+    background-color: #fafcff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.reviewer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.reviewer img {
+    border-radius: 50%;
+}
+
+.reviewer h3,p {
+    color: #8c8e98;
+}
+
+/* user_say section css End */
