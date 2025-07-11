@@ -138,3 +138,12 @@ nav{
 }
 
 /* user section css End */
+
+/* user_say section css start */
+
+.user_say{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+}
