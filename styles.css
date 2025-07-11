@@ -195,3 +195,28 @@ nav{
 }
 
 /* focus section css End */
+
+/* get section css start */
+
+.get{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Raleway", sans-serif;
+    margin: 70px 0px;
+}
+.get form{
+    width: 497px ;
+}
+.get input {
+    padding: 18px 0px 18px 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.get form textarea{
+    padding: 18px 0px 50px 15px;
+    border: none;
+    border-radius: 10px;
+}
+/* get section css End */
